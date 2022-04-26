@@ -20,6 +20,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-font-color);
+  
+
 }
 h1,
 h2,
@@ -301,7 +303,8 @@ position: relative;
 }
 
 .our-team {
-  background-color: var(--light-bg-col);
+  background-color: var(--light-bg-col);  
+  background-size:auto;
 }
 .team-list {
   --card-item: 4;
@@ -537,10 +540,11 @@ position: relative;
   border-color: var(--accent-color);
 }
 .email-subscription-form {
-  display: flex;
-  align-items: flex-end;
+  display: block;
 }
-
+.footer-email-input-btn-box {
+  display: flex;
+}
 .contact-form-submit-btn:focus,
 .contact-form-submit-btn:hover,
 .email-subscription-form-btn:hover,
