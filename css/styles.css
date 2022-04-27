@@ -566,9 +566,6 @@ position: relative;
 .footer-input-btn-box {
   display: flex;
 }
-.email-subscription-form .modal-btn {
-  height: min-content;
-}
 /* ==========END FOOTER========== */
 
 /* ==========START MODAL========= */
@@ -753,9 +750,12 @@ transition: border-color var(--transition);
 .policy-link {
   color: var(--accent-color);
   display: flex;
+border-bottom: 1px solid var(--accent-color);
+line-height: 1;
 }
 .contact-form-input-subtitle {
   display: block;
 margin-bottom: 4px;
+
 }
 /* ============END MODAL============ */
